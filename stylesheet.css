@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f2f2f2;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+body.dark{
+  background-color: #303030;
+  color: #DCDCDC;
+}
+
+
+
+#img1, #img2 {
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+#logoImg {
+ vertical-align: middle;
+ width: 10;
+ height: 50;
+ padding: 0;
+ margin: 0;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+div.a {
+  background-color: #fff;
+  margin: auto;
+  width: 1100px;
+  opacity: 0.9;
+  color: #000000;
+  word-wrap: normal;
+  padding: 50px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+div.a.dark{
+  background-color: #000000;
+  color: #DCDCDC;
+}
+
+div.buttonList{
+    line-height: 40pt;
+}
+#formatted table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+#formatted th, #formatted td {
+
+  padding: 10px;
+  text-align: left;
+
+  border-radius: 5px;
+}
+#formatted th {
+  background-color: #ddd;
+  font-weight: bold;
+}
+#formatted th.dark{
+  background-color: #101010;
+}
+#formatted tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#formatted tr.dark {
+  background-color: #101010;
+}
+#formatted tr:nth-child(even).dark {
+  background-color: #303030;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: all 0.2s ease-in-out;
+  font-size: 16px;
+}
+button.dark {
+  background-color: #303030;
+  color: #DCDCDC;
+}
+
+
+button:hover {
+  background-color: #ddd;
+  cursor: pointer;
+}
+button:hover.dark {
+  background-color: #101010;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+h1 {
+margin: 0
+  font-size: 36px;
+}
+h2 {
+  font-size: 28px;
+}
+h3 {
+  font-size: 24px;
+}
+
+
+
+</style>
+
+a {
+  transition: all 0.2s ease-in-out;
+}
+a:link { text-decoration: none; color: #333;}
+a:visited { text-decoration: none; color: #333;}
+a:hover { text-decoration: none; color: #333;}
+a:active { text-decoration: none; color: #333;}
+
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #000000;
+}
+header.dark{
+  background-color: #000000;
+  color: #DCDCDC
+}
+header .logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+header nav ul li {
+  list-style: none;
+  margin-right: 20px;
+}
+header.dark nav ul li a {
+color: #DCDCDC
+}
